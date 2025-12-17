@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes:light --default, dark --prefersdark;
+}
+
+@media print {
+  @page {
+    margin: 0;
+    size: auto;
+  }
+  body {
+    background: white;
+  }
+  /* Hide everything that isn't the print area if needed, 
+     but our Route approach avoids this issue. */
+}
