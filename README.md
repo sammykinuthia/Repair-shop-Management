@@ -1,6 +1,4 @@
-Here is a professional `README.md` file tailored for your project. You can create a file named `README.md` in the root of your project folder and paste this content in.
 
-```markdown
 # 🛠️ Royoltech Repair Manager
 
 **A robust, offline-first Electronics Repair Shop Management System.**
@@ -160,4 +158,3 @@ All Rights Reserved.
 
 **Developed by Royoltech Solutions**
 [royoltech.com](https://royoltech.com)
-```
