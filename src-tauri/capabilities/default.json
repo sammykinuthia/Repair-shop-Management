@@ -4,7 +4,8 @@
   "description": "Capability for the main window",
   "windows": [
     "main",
-    "print-ticket-*"
+    "print-ticket-*",
+    "sticker-*"
   ],
   "permissions": [
     "core:default",
@@ -26,6 +27,22 @@
     "fs:scope-appconfig-recursive",
     "fs:scope-document-recursive",
     "fs:scope-download-recursive",
-    "fs:scope-desktop-recursive"
+    "fs:scope-desktop-recursive",
+    "process:default",
+    "fs:scope-home-recursive",
+    "fs:allow-app-meta",
+    "fs:allow-remove",
+    {
+      "identifier": "http:default",
+      "allow": [
+        {
+          "url": "https://*.royoltech.com/*"
+        },
+        {
+          "url": "https://*.turso.io/*"
+        }
+      ]
+    },
+    "log:default"
   ]
 }

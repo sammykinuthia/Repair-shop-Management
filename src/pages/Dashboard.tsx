@@ -61,7 +61,7 @@ export default function Dashboard() {
       {/* 1. WELCOME SECTION */}
       <div className="flex justify-between items-end">
         <div>
-          <h1 className="text-2xl font-bold text-gray-800">Habari, {user?.full_name.split(' ')[0]} 👋</h1>
+          <h1 className="text-2xl font-bold text-gray-800">Hello, {user?.full_name.split(' ')[0]} 👋</h1>
           <p className="text-gray-500 text-sm mt-1">Here is what's happening in the workshop today.</p>
         </div>
         <button 

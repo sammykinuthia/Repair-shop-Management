@@ -1,5 +1,4 @@
 import { copyFile, readFile, BaseDirectory, mkdir, exists } from '@tauri-apps/plugin-fs';
-import { appDataDir, join } from '@tauri-apps/api/path';
 
 export const ImageManager = {
   // 1. Ensure folder exists

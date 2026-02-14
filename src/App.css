@@ -11,6 +11,9 @@
   body {
     background: white;
   }
+  button{
+    cursor: pointer !important;
+  }
   /* Hide everything that isn't the print area if needed, 
      but our Route approach avoids this issue. */
 }
