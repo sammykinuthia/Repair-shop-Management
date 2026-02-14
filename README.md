@@ -4,7 +4,7 @@
 **A robust, offline-first Electronics Repair Shop Management System.**
 Built with **Tauri v2**, **React**, **TypeScript**, and **SQLite**.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
 ![Stack](https://img.shields.io/badge/tech-Tauri%20%7C%20React%20%7C%20SQLite-orange)
 
 ## 📖 Overview
